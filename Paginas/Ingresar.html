@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Ingresar</title>
+  </head>
+  
+  <body id="body_i_r" >
+      <header>
+            <div class="container-fluid shadow-lg " id="header-1">
+                <div class="row">
+
+                    <div class="col-12">
+                        <div class="navbar navbar-expand-md navbar-light ">
+                            <a type="button" class="navbar-toggler" data-toggle="collapse" data-target="#ver">
+                                <span class="navbar-toggler-icon"></span>
+                            </a>
+
+                            <li class="col-auto  d-md-none d-block col-md m-auto p-auto nav-item"><img src="../imagenes/logo.png" alt=""></img></li>
+                            <h3 class="col-auto  d-md-none d-block col-md  text-italic p-auto m-auto">Yo.musica</h3>
+
+                            <div class="collapse navbar-collapse mt-2" id="ver" >
+                                <div class="container ">
+                                    <div class="row ">
+
+                                        <div class="col-auto  m-auto">
+                                            <ul class="col-12 nav m-1 ">
+                                                <li class="col d-none d-md-block col-md m-auto p-auto nav-item"><img src="../imagenes/logo.png" alt=""></img></li>
+                                                <h3 class="col d-none d-md-block col-md text-center text-italic p-auto m-auto">Yo.musica</h3>
+                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link"  href="../index.html">Inicio</a></li>
+                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" href="Canciones.html">Canciones</a></li>
+                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a type="button" class="nav-link" data-target="#modal" data-toggle="modal" href="">Contacto</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="modal" id="modal" role="dialog">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4>Contacto</h4>
+                                                        <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                          </button>
+                                                    </div>
+
+                                                    <div class="modal-body">
+                                                        <p>Mi nombre es kevin benitez</p>
+                                                        <p>:)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-auto m-auto" >
+                                            <ul class="nav " >
+                                                <li class="col-auto  col-md-6  col-md-auto m-auto p-auto nav-item"><button class="btn border nav-link"><a href="Registrar.html">Registrarse</a></button></li>
+                                                <li class="col-auto  col-md-6  col-md-auto m-auto p-auto nav-item"><button id="activo-boton" class="btn border nav-link "><a  href="Ingresar.html">Ingresar</a></button></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <article>
+        <div class="container my-5 py-5 m-auto m-auto">
+            <div class="row">
+                <form action="" class="row form-group m-auto">
+                    <div class="col-12 m-auto">
+                        <h2 class="text-center  my-3 py-3   m-md-3 p-md-3 ">Iniciar seccion</h2>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="correo" class="px-md-2"><h5>Ingrese su Correo Electronico</h5></label>
+                            <input type="email" class="form-control" placeholder="Gmail.com" name="email">
+                        <div id="mensaje_correo"  class="correccion mb-4"></div>
+                    </div>
+
+                    <div class="col-12 col-md-6 ">
+                        <label for="contraseña" class="px-md-2"><h5>Ingrese una Contraseña</h5></label>
+                            <input type="password" class="form-control" placeholder="Contraseña" name="contraseña">
+                        <div id="mensaje_contraseña" class="correccion mb-4"></div>
+
+                    </div>
+
+                    <div class="col-auto col-md-4 m-auto ">
+                        <button id="boton-ingresar" class=" col-md-12  btn px-sm-3  border border-rounded border-dark " type="btn" onclick="return verificar(this.form)">Ingresar</button>
+                    </div>
+                </form>
+                    <div class="modal mt-5" id="exito" role="dialog" >
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h1 class="text-center">!Felicidades!</h1>
+                                    <p class="text-center">Usted se a registrado</p>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container"  id="footer">
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-center">Derechos reservados</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="../js/Ingresar.js" ></script>
+  </body>
+</html>
+
