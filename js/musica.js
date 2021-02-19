@@ -2,7 +2,7 @@ $(document).ready(function(){ verificar()
 })
 
 function verificar(){
-    $.get("/datos.json" , function(datos){
+    $.get("../datos.json" , function(datos){
         $.each(datos , function(obj,index){
             for( var sec of index){
                 var ruta_audio=(("../canciones/")+sec.ruta);

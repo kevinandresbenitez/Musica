@@ -2,7 +2,7 @@ $(document).ready(function(){ verificar()
 })
 
 function verificar(){
-    $.get("http://127.0.0.1:5500/datos.json" , function(datos){
+    $.get("datos.json" , function(datos){
         $.each(datos , function(obj,index){
             var primera=0;
             var ruta_primera="";

@@ -2,6 +2,7 @@ var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9
 
 
 
+
 function verificar(formulario){
     var correo_error=document.getElementById("mensaje_correo");
     var contraseña_error=document.getElementById("mensaje_contraseña");
@@ -17,8 +18,9 @@ function verificar(formulario){
         contraseña_error.innerText=("!--- Contraseña incorrecta---!");
         return false
     }contraseña_error.innerText=("");
-     
-    $("#exito").modal("show")
+
+       $("#exito").modal("show")   
+    
 
 return true
 }
