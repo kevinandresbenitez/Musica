@@ -10,66 +10,78 @@
   </head>
   
   <body  id="body_index">
-      <header>
-            <div class="container-fluid shadow-lg" id="header-1" >
-                <div class="row">
+    <header>
+        <div class="container-fluid shadow-lg" id="header-1">
+            <div class="row">
+                <div class="col-12">
 
-                    <div class="col-12">
-                        <div class="navbar navbar-expand-md navbar-light ">
-                            <a type="button" class="navbar-toggler" data-toggle="collapse" data-target="#ver">
-                                <span class="navbar-toggler-icon"></span>
-                            </a>
+                    <div class=" navbar navbar-expand-md navbar-light ">
 
-                            <li class="col-auto  d-md-none d-block col-md m-auto p-auto nav-item"><img src="imagenes/logo.png" alt=""></img></li>
-                            <h3 class="col-auto  d-md-none d-block col-md  text-italic p-auto m-auto">Yo.musica</h3>
 
-                            <div class="collapse navbar-collapse mt-2" id="ver" >
-                                <div class="container ">
-                                    <div class="row ">
+                        <div>
+                            <a  class=" p-2 navbar-toggler" data-toggle="collapse" data-target="#ver">
+                                <span class=" navbar-toggler-icon"></span>
+                            </a>  
+                        </div>
 
-                                        <div class="col-auto  m-auto">
-                                            <ul class="col-12 nav m-1 ">
-                                                <li class="col d-none d-md-block col-md m-auto p-auto nav-item"><img src="imagenes/logo.png" alt=""></img></li>
-                                                <h3 class="col d-none d-md-block col-md text-center text-italic p-auto m-auto">Yo.musica</h3>
-                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" id="activo" href="index.html">Inicio</a></li>
-                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" href="Paginas/Canciones.html">Canciones</a></li>
-                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" data-target="#modal" data-toggle="modal" href="">Contacto</a></li>
-                                            </ul>
-                                        </div>
+    
+    
+                        <div class="col-7 d-md-none d-block col-md m-auto p-auto nav-item d-flex">
+                            <img class="  img-fluid" src="./imagenes/logo.png" alt=""></img>
+                            <h3 class="  d-md-none d-block col-md  text-italic p-auto m-auto">Yo.musica</h3>
+                        </div>
 
-                                        <div class="modal" id="modal" role="dialog">
-                                            <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h4>Contacto</h4>
-                                                        <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                          </button>
-                                                    </div>
 
-                                                    <div class="modal-body">
-                                                        <p>Mi nombre es kevin benitez</p>
-                                                        <p>Esta pagina es estatica</p>
-                                                        <p>Los formularios son solo de muestra , no hay usuarios</p>
-                                                        <p>:)</p>
-                                                    </div>
+
+
+                        <div class="collapse navbar-collapse mt-2" id="ver" >
+                            <div class="container ">
+                                <div class="row m-auto">
+
+                                    <div class="col-auto  m-auto">
+                                        <ul class="col-12 nav m-1 ">
+                                            <li class="col d-none d-md-block col-md m-auto p-auto nav-item"><img src="../imagenes/logo.png" alt=""></img></li>
+                                            <h3 class="col d-none d-md-block col-md text-center text-italic p-auto m-auto">Yo.musica</h3>
+                                            <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" id="activo" href="./index.html">Inicio</a></li>
+                                            <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link"  href="./Paginas/Canciones.html">Canciones</a></li>
+                                            <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" data-target="#modal" data-toggle="modal" href="">Contacto</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="modal" id="modal" role="dialog">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4>Contacto</h4>
+                                                    <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                      </button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <p>Mi nombre es kevin benitez</p>
+                                                    <p>Esta pagina es estatica</p>
+                                                    <p>Los formularios son solo de prueba , no hay usuarios</p>
+                                                    <p>:)</p>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="col-auto m-auto" >
-                                            <ul class="nav m-auto" >
-                                                <li class="col-auto  col-md-auto  m-1 p-2 nav-item"><a class="btn border nav-link p-auto"  id="btn_registrar" href="Paginas/Registrar.html">Registrarse</a></li>
-                                                <li class="col-auto  col-md-auto  m-1 p-2 nav-item"><a  class="btn border nav-link p-auto" id="btn_ingresar" href="Paginas/Ingresar.html">Ingresar</a></li>
-                                            </ul>
-                                        </div>
                                     </div>
+
+                                </div>
+
+                                <div class="row-12 m-auto d-flex">
+                                    <a class="col-auto nav-item nav-link btn border  mx-1 " id="activo-boton"  href="./Paginas/Registrar.html">Registrarse</a>
+                                    <a class="col-auto nav-item nav-link btn border  mx-1 " id="btn_ingresar" href="./Paginas/Ingresar.html">Ingresar</a>
                                 </div>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
             </div>
+        </div>
     </header>
 
     <article>
@@ -81,7 +93,7 @@
                     <p class="text-center"> Escucha nuestras canciones gratis sin copirigth</p>
 
                     <div class="col-3 p-auto m-auto ">
-                      <a name="boton" type="button" href="Paginas/Canciones.html" id="boton-interno">Visitar</a>
+                      <a name="boton"  href="./Paginas/Canciones.html" id="boton-interno">Visitar</a>
                     </div>
                 </div>
 
@@ -133,7 +145,7 @@
                     <table class="col-12 table  table-border-dark m-auto  " id="Agrego">
                         <tr>
                             <th class="  border-dark  d-none d-md-block">Nombres</th>
-                            <th class="border-bottom border-dark">Canciones</th>
+                            <th class="border-bottom border-dark ">Canciones</th>
                         </tr>
                     </table>
                 </div>

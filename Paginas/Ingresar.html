@@ -9,93 +9,105 @@
   </head>
   
   <body id="body_i_r" >
-      <header>
-            <div class="container-fluid shadow-lg " id="header-1">
-                <div class="row">
 
-                    <div class="col-12">
-                        <div class="navbar navbar-expand-md navbar-light ">
-                            <a type="button" class="navbar-toggler" data-toggle="collapse" data-target="#ver">
-                                <span class="navbar-toggler-icon"></span>
-                            </a>
+    <header>
+        <div class="container-fluid shadow-lg" id="header-1">
+            <div class="row">
+                <div class="col-12">
 
-                            <li class="col-auto  d-md-none d-block col-md m-auto p-auto nav-item"><img src="../imagenes/logo.png" alt=""></img></li>
-                            <h3 class="col-auto  d-md-none d-block col-md  text-italic p-auto m-auto">Yo.musica</h3>
+                    <div class="navbar navbar-expand-md navbar-light ">
 
-                            <div class="collapse navbar-collapse mt-2" id="ver" >
-                                <div class="container ">
-                                    <div class="row ">
+                        <div>
+                            <a  class=" p-2 navbar-toggler" data-toggle="collapse" data-target="#ver">
+                                <span class=" navbar-toggler-icon"></span>
+                            </a>  
+                        </div>
 
-                                        <div class="col-auto  m-auto">
-                                            <ul class="col-12 nav m-1 ">
-                                                <li class="col d-none d-md-block col-md m-auto p-auto nav-item"><img src="../imagenes/logo.png" alt=""></img></li>
-                                                <h3 class="col d-none d-md-block col-md text-center text-italic p-auto m-auto">Yo.musica</h3>
-                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link"  href="../index.html">Inicio</a></li>
-                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" href="Canciones.html">Canciones</a></li>
-                                                <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a type="button" class="nav-link" data-target="#modal" data-toggle="modal" href="">Contacto</a></li>
-                                            </ul>
-                                        </div>
+    
+    
+                        <div class="col-7 d-md-none d-block col-md m-auto p-auto nav-item d-flex">
+                            <img class="  img-fluid" src="../imagenes/logo.png" alt=""></img>
+                            <h3 class="  d-md-none d-block col-md  text-italic p-auto m-auto">Yo.musica</h3>
+                        </div>
 
-                                        <div class="modal" id="modal" role="dialog">
-                                            <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h4>Contacto</h4>
-                                                        <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
-                                                            <span aria-hidden="true">&times;</span>
-                                                          </button>
-                                                    </div>
 
-                                                    <div class="modal-body">
-                                                        <p>Mi nombre es kevin benitez</p>
-                                                        <p>:)</p>
-                                                    </div>
+                        <div class="collapse navbar-collapse mt-2" id="ver" >
+                            <div class="container ">
+                                <div class="row m-auto">
+
+                                    <div class="col-auto  m-auto">
+                                        <ul class="col-12 nav m-1 ">
+                                            <li class="col d-none d-md-block col-md m-auto p-auto nav-item"><img src="../imagenes/logo.png" alt=""></img></li>
+                                            <h3 class="col d-none d-md-block col-md text-center text-italic p-auto m-auto">Yo.musica</h3>
+                                            <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link"  href="../index.html">Inicio</a></li>
+                                            <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" id="activo" href="Canciones.html">Canciones</a></li>
+                                            <li class="col-12 col-md  text-center  m-auto p-auto nav-item"><a class="nav-link" data-target="#modal" data-toggle="modal" href="">Contacto</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="modal" id="modal" role="dialog">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4>Contacto</h4>
+                                                    <button type="button" class=" close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                      </button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <p>Mi nombre es kevin benitez</p>
+                                                    <p>Esta pagina es estatica</p>
+                                                    <p>Los formularios son solo de prueba , no hay usuarios</p>
+                                                    <p>:)</p>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="col-auto m-auto" >
-                                            <ul class="nav m-auto" >
-                                                <li class="col-auto  col-md-auto  m-1 p-2 nav-item"><a class="btn border nav-link p-auto"  id="btn_registrar" href="Registrar.html">Registrarse</a></li>
-                                                <li class="col-auto  col-md-auto  m-1 p-2 nav-item"><a  class="btn border nav-link p-auto" id="activo-boton" href="Ingresar.html">Ingresar</a></li>
-                                            </ul>
-                                        </div>
-
                                     </div>
 
                                 </div>
+
+                                <div class="row-12 m-auto d-flex">
+                                    <a class="col-auto nav-item nav-link btn border  mx-1 "  id="btn_registrar" href="Registrar.html">Registrarse</a>
+                                    <a class="col-auto nav-item nav-link btn border  mx-1 " id="activo-boton" href="Ingresar.html">Ingresar</a>
+                                </div>
                             </div>
                         </div>
+
                     </div>
+
                 </div>
             </div>
+        </div>
     </header>
 
     <article>
         <div class="container my-5 py-5 m-auto m-auto">
             <div class="row">
-                <form action="" class="row form-group m-auto" id="mi_formulario">
-                    <div class="col-12 m-auto">
+
+                <form action="" class="row form-group m-auto d-flex" id="mi_formulario">
+
+                    <div class="col-12 col-md-7 m-auto">
                         <h2 class="text-center  my-3 py-3   m-md-3 p-md-3 ">Iniciar seccion</h2>
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <label for="correo" class="px-md-2"><h5>Ingrese su Correo Electronico</h5></label>
+                    <div class="col-12 col-md-7  m-auto">
+                        <label for="correo" class="px-md-2 m-auto"><h5>Ingrese su Correo Electronico</h5></label>
                             <input type="email" class="form-control" placeholder="Gmail.com" name="email">
                         <div id="mensaje_correo"  class="correccion mb-4"></div>
                     </div>
 
-                    <div class="col-12 col-md-6 ">
-                        <label for="contraseña" class="px-md-2"><h5>Ingrese una Contraseña</h5></label>
+                    <div class="col-12 col-md-7 m-auto  ">
+                        <label for="contraseña" class="px-md-2 m-auto "><h5>Ingrese una Contraseña</h5></label>
                             <input type="password" class="form-control" placeholder="Contraseña" name="contraseña">
                         <div id="mensaje_contraseña" class="correccion mb-4"></div>
-
                     </div>
 
-                    <div class="col-auto col-md-4 m-auto ">
-                        <button id="boton-ingresar" class=" col-md-12  btn px-sm-3  border border-rounded border-dark " type="btn" onclick="return verificar(this.form)">Ingresar</button>
+                    <div class="col-6  offset-3  col-md-2    offset-md-5 ">
+                        <button id="boton-ingresar" class=" col-12   m-auto  btn px-sm-3  border border-rounded border-dark " type="button" onclick="return verificar(this.form)">Ingresar</button>
                     </div>
                 </form>
+
                     <div class="modal mt-5" id="exito" role="dialog" >
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
